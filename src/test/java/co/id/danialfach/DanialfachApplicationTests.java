@@ -13,7 +13,7 @@ class DanialfachApplicationTests {
 	@Test
 	void queryActorById() {
 		Actor actor = actorController.actorById(1L);
-		assert actor.name().equals("Keanu Reeves");
+		assert actor.name().equals("Nabil");
 	}
 
 }
